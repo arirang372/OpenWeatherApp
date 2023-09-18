@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Open Weather</string>
+    <string name="cancel">Cancel</string>
+    <string name="exit">Exit</string>
+    <string name="find_my_location">Find my location</string>
+    <string name="is_app_open_first_time">IsAppOpenFirstTime</string>
+    <string name="is_location_permission_granted">isLocationPermissionGranted</string>
+    <string name="location_access_denied">Location access denied</string>
+    <string name="location_access_denied_page_title">Please allow location access</string>
+    <string name="my_location">myLocation</string>
+    <string name="no_search_result">No Search Result</string>
+    <string name="open_settings">Open Settings</string>
+    <string name="search">Search</string>
+    <string name="shared_preferences_key">OpenWeatherSharedPreferencesKey</string>
+    <string name="type_city_name">Type city name to search</string>
+    <string name="weather_image_icon">Weather Image Icon</string>
+</resources>
