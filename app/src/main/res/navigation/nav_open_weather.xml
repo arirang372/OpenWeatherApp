@@ -15,11 +15,6 @@
             app:destination="@id/weatherDashboardFragment"
             app:popUpTo="@id/weatherDashboardFragment"
             app:popUpToInclusive="true"/>
-
-<!--        <action-->
-<!--            android:id="@+id/action_search_weather_fragment_to_location_denied_fragment"-->
-<!--            app:destination="@id/locationDeniedFragment" />-->
-
     </fragment>
 
     <fragment
@@ -38,14 +33,4 @@
             app:popUpTo="@id/searchWeatherFragment"
             app:popUpToInclusive="true"/>
     </fragment>
-
-    <fragment
-        android:id="@+id/locationDeniedFragment"
-        android:name="com.john.openweatherapp.view.LocationDeniedFragment"
-        tools:layout="@layout/fragment_location_denied">
-
-
-    </fragment>
-
-
 </navigation>

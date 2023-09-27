@@ -5,11 +5,7 @@ import com.john.openweatherapp.data.remote.GeocodingResponseResult
 import com.john.openweatherapp.data.remote.OpenWeatherResponseResult
 import com.john.openweatherapp.data.remote.WeatherResponseTransformer
 import com.john.openweatherapp.model.GeocodingDetails
-import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow
-import kotlinx.coroutines.flow.flow
-import kotlinx.coroutines.flow.flowOn
-import kotlinx.coroutines.flow.subscribeOn
 import javax.inject.Inject
 import javax.inject.Singleton
 

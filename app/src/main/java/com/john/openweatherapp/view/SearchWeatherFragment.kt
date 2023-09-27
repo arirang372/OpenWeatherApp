@@ -138,6 +138,7 @@ class SearchWeatherFragment : Fragment(), SearchWeatherCallback {
         searchView.queryHint = getString(R.string.type_city_name)
         searchView.setOnQueryTextListener(object : SearchView.OnQueryTextListener {
             override fun onQueryTextSubmit(query: String): Boolean {
+                viewModel.searchErrorMessage.set("")
                 viewModel.fetchGeocodingDetails(query)
                 return false
             }
