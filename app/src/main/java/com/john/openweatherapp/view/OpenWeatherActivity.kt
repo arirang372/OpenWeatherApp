@@ -19,7 +19,7 @@ import dagger.hilt.android.AndroidEntryPoint
 @AndroidEntryPoint
 class OpenWeatherActivity : AppCompatActivity() {
 
-    var locationDeniedActivity = registerForActivityResult(
+    private var locationDeniedActivity = registerForActivityResult(
         ActivityResultContracts.StartActivityForResult()
     ) { result: ActivityResult ->
 
